@@ -3,11 +3,12 @@ Implement a function which convert the given boolean value into its string repre
 
 Note: Only valid inputs will be given.
 ----------------------My--------------------------------------
+*/
 const booleanToString = b => b ? 'true' : 'false'
 
 
---------------------codewars----------------------------------
+//--------------------codewars----------------------------------
 function booleanToString(b){
     return b.toString();
   }
-*/
+
