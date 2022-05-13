@@ -11,8 +11,9 @@
   // console/return
   // E:
   function makeNegative(num) {
-    return -num
-  
+         let result = num > 0 ? -num : num
+         console.log(result)
+         return result
 }
 
 makeNegative(1)     // return -1
