@@ -14,7 +14,7 @@
 function repeatStr(n, s){
     let newWord = []
     for(let i = 0 ; i < n; i++){
-        newWord += s + ' '
+        newWord += s
     }
     return newWord
 }
