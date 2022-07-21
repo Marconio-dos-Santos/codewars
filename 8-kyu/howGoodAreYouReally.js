@@ -12,3 +12,16 @@ function betterThanAverage(classPoints, yourPoints) {
     return classPoints.reduce((acc,cur) => acc + cur,0) / classPoints.length > yourPoints ? false : true
     }
   
+    class MakeCharacter{
+        constructor(hp,power,def,speed){
+            this.hp = hp
+            this.power = power
+            this.def = def
+            this.speed = speed
+        }
+        special(){
+            console.log(`I will destroi you with my ${this.power} of power`)
+        }
+    }
+
+    let ryu = new MakeCharacter(1500,100,500,100)
